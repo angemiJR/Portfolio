@@ -1,23 +1,19 @@
-import Navbar from "../components/Navbar";
-import About from "../pages/About";
-import Skills from "../pages/Skills";
-import Education from "../pages/Education";
-import Work from "../pages/Work";
-import Contact from "../pages/Contact";
+import Navbar from '../components/Navbar';
+
+
+
 
 import "../styles/Hello.css";
 
 function Hello() {
     return (
         <div>
-            <Navbar /> {/* Keep Navbar fixed at the top */}
+             <Navbar /> {/* Fixed navigation at the top */}
+             <div>
+            <h1>Hello</h1>
+            <p>This is the Hello page content.</p>
+        </div>
 
-            {/* Sections with IDs for smooth scrolling */}
-            <section id="about"><About /></section>
-            <section id="skills"><Skills /></section>
-            <section id="education"><Education /></section>
-            <section id="work"><Work /></section>
-            <section id="contact"><Contact /></section>
         </div>
     );
 }
