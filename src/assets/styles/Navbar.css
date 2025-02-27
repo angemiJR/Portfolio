@@ -1,34 +1,30 @@
+@import "../styles/fonts.css";
+
 .navbar {
-    background-color: #333;
-    padding: 10px 20px;
-}
-
-.navbar nav ul {
-    list-style: none;
+  /* border: 1px solid green; */
+    width: 80vw;
+    float: right;
+    margin: 20px;
     display: flex;
-    gap: 20px;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
+    justify-content: space-evenly;
 }
 
-.navbar nav ul li {
-    display: inline;
-}
 
-.nav_a {
+
+.navbar a {
     text-decoration: none;
-    color: white;
-    font-size: 18px;
-    padding: 8px 12px;
+    color: #00686c;
+    font-family: "Roboto_Black";
+    font-size: 2em;
+   
     transition: color 0.3s ease-in-out;
 }
 
-.nav_a:hover {
-    color: #f39c12;
+.navbar a:hover {
+    color: #7eaaac;
 }
 
-.nav_a.active {
-    color: #f39c12;
+.navbar a.active {
+  
     font-weight: bold;
 }

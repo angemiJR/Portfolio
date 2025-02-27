@@ -1,4 +1,30 @@
 #hello {
     width: 100vw;
     height: 100vh;
+    /* border: 5px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 40vw;
+    height: 95vh;
+    margin-left: 15px;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 1;
+    /* background-image: url("../pictures/Hello_1.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 500% 145%;  */
+}
+
+#picture_hello {
+    height: 95%;
+    width: auto;
+    margin-top: -100px;
+    object-fit: cover;
 }
