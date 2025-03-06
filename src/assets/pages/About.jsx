@@ -1,8 +1,11 @@
+import '../styles/About.css';
+import Logo from '../components/Logo.jsx';
+import Chapter from '../components/Chapter.jsx';
 function About() {
     return (
-        <div>
-            <h1>About</h1>
-            <p>This is the About page content.</p>
+        <div className='container'>
+            <Chapter/>
+        
         </div>
     );
 }

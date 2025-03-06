@@ -1,0 +1,59 @@
+@import "../styles/fonts.css";
+
+.container {
+    width: 80vw;
+    height: 85vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow: hidden;
+    z-index: 1;
+    position: absolute;
+    top: 10vh;
+    /* border: 1px solid red; */
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    transform: rotate(135deg);
+}
+
+.three {
+    background-color: #cc9793;
+    border-radius: 15%;
+}
+
+.one {
+    background-color: #89ada5;
+    border-radius: 15%;
+}
+
+.two {
+    background-color: #a0556a;
+    border-radius: 15%;
+
+}
+
+
+.chapter_box {
+    width: 70%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   position: absolute;
+   right: 30vw;
+    border: 2px solid #cc9793;
+}
+
+.color_box{
+    width: 70%;
+    height: 70%;
+    border-radius: 0px 10px 10px 0px;
+    margin: 5px;
+    border: 2px solid #89ada5;
+}

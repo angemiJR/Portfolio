@@ -1,0 +1,15 @@
+@import "../styles/fonts.css";
+@import "../styles/Common.css";
+
+#about {
+
+    width: 100vw;
+    height: 100vh;
+    /* border: 5px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+}
+

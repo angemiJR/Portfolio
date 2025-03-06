@@ -10,7 +10,7 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <>
      {/* Sections with corresponding IDs for smooth scrolling */}
 <section id="hello"><Hello /></section>
 <section id="about"><About /></section>
@@ -18,7 +18,7 @@ function App() {
 <section id="education"><Education /></section>
 <section id="work"><Work /></section>
 <section id="contact"><Contact /></section>
-    </div>
+    </>
   );
 }
 
