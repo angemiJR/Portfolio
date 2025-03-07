@@ -2,3 +2,8 @@
     font-family: 'Roboto_Black';
     src: url('../fonts/Roboto-Black.ttf') format('truetype');
 }
+
+@font-face {
+    font-family: 'Roboto_Thin';
+    src: url('../fonts/Roboto-Thin.ttf') format('truetype');
+}

@@ -7,6 +7,9 @@
     justify-content: space-between;
     align-self: flex-end;
     margin-top: 2em;
+    position: fixed;
+    z-index: 3;
+    background-color:#ececec;
 }
 
 

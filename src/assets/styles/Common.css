@@ -1,59 +1,52 @@
 @import "../styles/fonts.css";
 
-.container {
+
+
+
+.chapter_left {
     width: 80vw;
-    height: 85vh;
+    height: 25vh;
     display: flex;
+    margin-top: 6em;
     justify-content: flex-start;
     align-items: flex-start;
-    overflow: hidden;
-    z-index: 1;
-    position: absolute;
-    top: 10vh;
-    /* border: 1px solid red; */
+    flex-direction: column;
+    position: relative;
+    /* border: 2px solid #128312; */
 }
 
-.logo {
-    width: 150px;
-    height: 150px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 5px;
-    transform: rotate(135deg);
+.chapter_left .LogoClean {
+    width: 13vh;
+    height: auto;
+    margin-right: 2em;
 }
 
-.three {
-    background-color: #cc9793;
-    border-radius: 15%;
-}
+.chapter_left .color_box_left {
+    width: 60vw;
+    height: 10vh;
+    border-radius: 0em 1em 1em 0em;
+    justify-self: flex-start;
 
-.one {
-    background-color: #89ada5;
-    border-radius: 15%;
-}
-
-.two {
-    background-color: #a0556a;
-    border-radius: 15%;
-
-}
-
-
-.chapter_box {
-    width: 70%;
-    height: 20%;
+    left: -1em;
+    background-color: rgba(137, 173, 165, 0.4);
     display: flex;
-    justify-content: space-around;
     align-items: center;
-   position: absolute;
-   right: 30vw;
-    border: 2px solid #cc9793;
+    justify-content: flex-start;
 }
 
-.color_box{
-    width: 70%;
-    height: 70%;
-    border-radius: 0px 10px 10px 0px;
-    margin: 5px;
-    border: 2px solid #89ada5;
+.chapter_left .color_box_left .box {
+    width: 50vw;
+    height: auto;
+    padding-left: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.chapter_left h2 {
+    font-family: "Roboto_Black";
+    font-size: 3em;
+    color: whitesmoke;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }

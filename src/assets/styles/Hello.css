@@ -13,7 +13,17 @@
     position: relative;
 }
 
-
+.container {
+    width: 80vw;
+    height: 85vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow: hidden;
+    z-index: 1;
+    position: absolute;
+    top: 10vh;
+}
 
 #picture_hello {
     height: 100%;
