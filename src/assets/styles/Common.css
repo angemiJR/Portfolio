@@ -50,3 +50,58 @@
     color: whitesmoke;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
+
+
+
+
+
+.chapter_right {
+    width: 80vw;
+    height: 25vh;
+    display: flex;
+    margin-top: 6em;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: column;
+    position: relative;
+    /* border: 2px solid #128312; */
+}
+
+.chapter_right .LogoClean {
+    width: 13vh;
+    height: auto;
+    margin-right: 2em;
+    margin-left: 2em;
+    transform: scaleX(-1);
+}
+
+.chapter_right .color_box_right {
+    width: 60vw;
+    height: 10vh;
+    border-radius: 1em 0em 0em 1em;
+    justify-self: flex-start;
+
+    right: -1em;
+    background-color: rgba(137, 173, 165, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.chapter_right .color_box_right .box {
+    width: 50vw;
+    height: auto;
+    padding-left: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* border: 1px solid red; */
+}
+
+
+.chapter_right h2 {
+    font-family: "Roboto_Black";
+    font-size: 3em;
+    color: whitesmoke;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}

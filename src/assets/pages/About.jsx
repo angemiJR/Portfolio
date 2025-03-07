@@ -1,5 +1,5 @@
 import '../styles/About.css';
-import Logo from '../components/Logo.jsx';
+
 import Chapter from '../components/Chapter_left.jsx';
 import picture1 from '../pictures/About1.svg';
 function About() {

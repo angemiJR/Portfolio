@@ -1,9 +1,22 @@
+import '../styles/Skills.css';
+
+import Chapter from '../components/Chapter_right.jsx';
+
+
+const chapterText = "Skills";
 function Skills() {
     return (
-        <div>
-            <h1>Skills Page</h1>
-            <p>This is the Skills page content.</p>
+        <>
+        <div className='chapter_right'>
+
+            <Chapter text={chapterText} />
+
         </div>
+        <div className='container2'>
+           
+        </div>
+
+    </>
     );
 }
 
