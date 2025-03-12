@@ -3,6 +3,7 @@
 .navbar {
   /* border: 1px solid green; */
     width: 50vw;
+    min-width: 800px;
     display: flex;
     justify-content: space-between;
     align-self: flex-end;
@@ -30,4 +31,11 @@
 .navbar a.active {
   
     font-weight: bold;
+}
+
+@media (min-width: 1901px) {
+    .navbar a {
+       
+        font-size: 2rem;
+    }
 }
