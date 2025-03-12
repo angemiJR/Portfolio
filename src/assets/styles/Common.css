@@ -58,6 +58,7 @@
 .chapter_right {
     width: 80vw;
     height: 25vh;
+    max-height: 150px;
     display: flex;
     margin-top: 6em;
     justify-content: flex-start;
