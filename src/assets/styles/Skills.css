@@ -6,12 +6,12 @@
 /* Container Styles for #skills */
 #skills {
     width: 100vw;
-    min-width: 1080px;
+    min-width: 1200px;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-end;
+    align-items: flex-start;
     position: relative;
     background-color: #ececec;
 }
@@ -19,8 +19,7 @@
 /* Styles for .container3 */
 .container3 {
     width: 80vw;
-    max-width: 1400px;
-    min-width: 1080px;
+    min-width: 1200px;
     max-height: 550px;
     height: 75%;
     margin-bottom: 1em;
@@ -101,7 +100,7 @@ b {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        align-items: flex-end;
+        align-items: flex-start;
         position: relative;
     }
 

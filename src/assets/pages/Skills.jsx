@@ -1,6 +1,7 @@
 import '../styles/Skills.css';
+import '../styles/Common.css';
 
-import Chapter from '../components/Chapter_right.jsx';
+import Chapter from '../components/Chapter_left.jsx';
 
 import Skills_SM from '../pictures/Skills_SM.svg';
 import Skills_FD from '../pictures/Skills_FD.svg';
@@ -14,7 +15,7 @@ const chapterText = "Skills";
 function Skills() {
     return (
         <>
-            <div className='chapter_right'>
+            <div className='chapter_left'>
 
                 <Chapter text={chapterText} />
 

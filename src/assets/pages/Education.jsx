@@ -1,9 +1,104 @@
+import '../styles/Education.css';
+import '../styles/Common.css';
+import Skills_GE_bullet from '../pictures/Skills_GE_bullet.svg';
+import Skills_FD_bullet from '../pictures/Skills_FD_bullet.svg';
+import Skills_SM_bullet from '../pictures/Skills_SM_bullet.svg';
+
+import Chapter from '../components/Chapter_right.jsx';
+import picture1 from '../pictures/Education.svg';
+
+const chapterText = "Education";
 function Education() {
     return (
-        <div>
-            <h1>Education Page</h1>
-            <p>This is the Education page content.</p>
-        </div>
+
+        <>
+            <div className='chapter_right'>
+
+                <Chapter text={chapterText} />
+
+            </div>
+            <div className='container4'>
+                <div className="box">
+
+                    <img src={picture1} alt="" id='education_img' />
+
+                    <div className="div01">
+                        <div className="text_box">
+                            <h6>Bachelor’s degree with honors in graphic
+                                engineering and design</h6>
+                            <p>Department of Graphic Engineering and Design </p>
+                            <p>Faculty of Technical Science in Novi Sad</p>
+                            <p>October 2009 – October 2013</p>
+                        </div>
+
+                        <img src={Skills_GE_bullet} alt="" className='bullets' />
+                    </div>
+
+                    <div className="div02">
+                        <div className="text_box">
+                            <h6>Master’s degree in graphic
+                                engineering and design</h6>
+                            <p>Department of Graphic Engineering and Design </p>
+                            <p>Faculty of Technical Science in Novi Sad</p>
+                            <p>October 2013 – October 2014  </p>
+                        </div>
+
+                        <img src={Skills_GE_bullet} alt="" className='bullets' />
+                    </div>
+
+                    <div className="div03">
+                        <div className="text_box">
+                            <h6>Front-end developer</h6>
+                            <p>Sundsgårdens folkhögskola, Helsingborg,
+                            </p>
+                            <p>August 2024 - January 2025</p>
+                        </div>
+
+                        <img src={Skills_FD_bullet} alt="" className='bullets' />
+                    </div>
+
+
+                    <div className="div04">
+                        <img src={Skills_FD_bullet} alt="" className='bullets' />
+                        <div className="text_box">
+                            <h6>Basics of Programming  </h6>
+                            <h6>(in C# and .NET framework)  </h6>
+                            <p>SmartInIT Code Academy, Novi Sad</p>
+                            <p>March 2018</p>
+                        </div>
+
+                    </div>
+
+
+                    <div className="div05">
+                        <img src={Skills_SM_bullet} alt="" className='bullets' />
+                        <div className="text_box">
+                            <h6>Scrum Fundamentals Certified (SFC)</h6>
+                            <p>SCRUMstudy - Accreditation Body for
+                                Scrum and Agile, </p>
+                            <p>March 2022</p>
+                        </div>
+
+                    </div>
+
+
+
+                    <div className="div06">
+                        <img src={Skills_SM_bullet} alt="" className='bullets' />
+                        <div className="text_box">
+                            <h6>Professional Scrum Master™ I (PSM I)  </h6>
+                            <p>Scrum.org,  </p>
+                            <p>August 2022 </p>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </>
     );
 }
 
