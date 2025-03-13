@@ -1,0 +1,8 @@
+@import "../styles/fonts.css";
+
+
+.Works_container{
+    width: 20vw;
+    height: 60vh;
+    background-color: rgb(196, 194, 194);
+}
