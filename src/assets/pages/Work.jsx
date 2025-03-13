@@ -1,9 +1,26 @@
+import '../styles/Work.css';
+import '../styles/Common.css';
+
+import Work_chapter from '../components/Work_chapter.jsx';
+import Chapter from '../components/Chapter_right.jsx';
+
+
+const chapterText = "My work";
 function Work() {
+
+   
     return (
-        <div>
-            <h1>Work Page</h1>
-            <p>This is the Work page content.</p>
-        </div>
+        <>
+            <div className='chapter_right'>
+
+                <Chapter text={chapterText} />
+
+            </div>
+            <div className='container5'>
+               <Work_chapter/>
+            </div>
+
+        </>
     );
 }
 
