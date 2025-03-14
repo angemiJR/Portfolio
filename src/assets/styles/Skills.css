@@ -8,12 +8,17 @@
     width: 100vw;
     min-width: 1200px;
     height: 100vh;
+    min-height: 900px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     position: relative;
     background-color: #ececec;
+}
+
+#skills .chapter_left {
+    height: 15vh;
 }
 
 /* Styles for .container3 */

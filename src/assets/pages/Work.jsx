@@ -12,6 +12,8 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
+import Corgi from '../pictures/Work_corgi.svg';
+
 const chapterText = "My work";
 
 function Work() {
@@ -48,7 +50,11 @@ function Work() {
                     className="swiper-container"
                 >
                     <SwiperSlide>
-                        <Work_chapter />
+                        <Work_chapter tittle="Memory game" 
+                                        built_on="React, JavaScript, html, CSS" 
+                                        note="Started as a group project but comletley change it" 
+                                        img={Corgi}
+                                        url="https://game.njufkica.com/" />
                     </SwiperSlide>
                     <SwiperSlide>
                         <Work_chapter />

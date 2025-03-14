@@ -1,15 +1,18 @@
 @import "../styles/fonts.css";
 
 .carousel-container {
-    width: 70%!important;
+    width: 89% !important;
+    max-width: fit-content !important;
+    height: auto !important;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden !important;
     /* border: 1px solid salmon; */
 }
 
 .swiper-container {
-    width: 100%;
+    width: 80%;
     padding-top: 20px;
     padding-bottom: 50px;
     /* display: flex;
@@ -62,7 +65,7 @@
 /* Change the color of the Swiper navigation buttons */
 .swiper-button-next,
 .swiper-button-prev {
-    color: #00686c!important;
+    color: #00686c !important;
     font-family: "Roboto_Black" !important;
     font-size: 1.5rem !important;
     /* Change this to your desired color */
@@ -71,6 +74,6 @@
 /* Optional: Add hover effect */
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
-    color:rgba(137, 173, 165, 0.4)!important;
+    color: rgba(137, 173, 165, 0.4) !important;
     /* Different color on hover */
 }

@@ -3,6 +3,74 @@
 
 .Works_container{
     width: 20vw;
+    max-width: 18em;
+    min-width: 14em;
     height: 60vh;
-    background-color: rgb(196, 194, 194);
+    max-height: 40em;
+    min-height: 20em;
+    background-color:rgba(137, 173, 165, 0.4);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: scroll;
+
+}
+
+.picture{
+    width: 80%;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+.tittle{
+    font-family: "Roboto_Black";
+    font-size: 1.5em;
+    color: whitesmoke;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.built_on {
+    font-family: "Roboto_Bold";
+    font-size: 1em;
+    line-height: 1.5;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.note{
+    width: 100%;
+    min-height: 2em;
+    font-family: "Roboto_Thin";
+    font-size: 1em;
+    line-height: 1.5;
+    margin-top: 2em;
+    text-align: center;
+    overflow: scroll;
+
+}
+
+
+.work_text_box{
+    width: 80%;
+}
+
+.try {
+    width: 10em;
+    height: 3em;
+    background-color:#ececec;
+    border-radius: 5px;
+    border: none;
+    font-family: "Roboto_Bold";
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    box-shadow: 2px 2px 2px rgb(104, 104, 104);
+}
+
+.try:hover {
+    transform: scale(1.2);
+    font-size: 1em;
 }
