@@ -13,6 +13,9 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 import Corgi from '../pictures/Work_corgi.svg';
+import Spa from '../pictures/Serenity.png';
+import Animation from '../pictures/Animation.svg';
+import Sass from '../pictures/Sass.svg';
 
 const chapterText = "My work";
 
@@ -56,14 +59,29 @@ function Work() {
                                         img={Corgi}
                                         url="https://game.njufkica.com/" />
                     </SwiperSlide>
+
                     <SwiperSlide>
-                        <Work_chapter />
+                        <Work_chapter tittle="Wellness and SPA website" 
+                                        built_on="html, CSS" 
+                                        note="Started as a group project but comletley change it" 
+                                        img={Spa}
+                                        url="https://angemijr.github.io/wellness-site/index.html" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Work_chapter />
+
+                        <Work_chapter tittle="Windmill animation" 
+                                        built_on="html, CSS" 
+                                        note="Started as a group project but comletley change it" 
+                                        img={Animation}
+                                        url="https://angemijr.github.io/css_animation/" />
+
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Work_chapter />
+                        <Work_chapter tittle="Genesis website" 
+                                        built_on="html, CSS, SaSS" 
+                                        note="Started as a group project but comletley change it" 
+                                        img={Sass}
+                                        url="https://angemijr.github.io/SASS/index.html" />
                     </SwiperSlide>
                 </Swiper>
             </div>

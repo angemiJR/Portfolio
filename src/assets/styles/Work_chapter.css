@@ -8,7 +8,7 @@
     height: 60vh;
     max-height: 40em;
     min-height: 20em;
-    background-color:rgba(137, 173, 165, 0.4);
+    background-color: rgba(189, 236, 226, 0.4) ;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
