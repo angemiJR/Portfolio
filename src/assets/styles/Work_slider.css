@@ -81,16 +81,14 @@
 }
 
 
-@media (min-width: 1901px) {
 
-    .carousel-container {
-        width: 80% !important;
+    @media (min-width: 1901px) {
+        .carousel-container {
+            width: 100% !important;
+        }
 
+        .swiper-container {
+            width: 78% !important;
+        }
     }
-    
-    .swiper-container {
-        width: 70% !important;
-    }
 
-   
-}
