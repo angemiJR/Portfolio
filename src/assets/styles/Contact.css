@@ -1,5 +1,6 @@
 @import "../styles/fonts.css";
 @import "../styles/Common.css";
+@import "../styles/About.css";
 
 
 #contact {
@@ -7,14 +8,14 @@
     width: 100vw;
     height: 100vh;
     min-width: 1200px;
-    min-height: 900px;
+    min-height: 300px;
     /* border: 5px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     position: relative;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .line {
@@ -32,8 +33,8 @@
     width: 80vw;
     min-width: 1200px;
     max-height: 400px;
-    height: 65%;
-    margin-bottom: 1em;
+    height: 50%;
+    margin-bottom: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -44,13 +45,17 @@
 #picture_contact{
    
     height: auto;
-    width: 27%;
+    width: 30%;
     object-fit: cover;
-    margin-bottom: 50px;
+  
+}
+
+#contact .name {
+    margin-top:0;
 }
 
 .contact_text_box{
-    width: 40%;
+    width: 45%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -58,7 +63,7 @@
     align-items: flex-start;
 }
 
-.contact_text_box h6{
+.contact_text_box h6 {
     font-family: "Roboto_Thin";
     font-size: 1em;
     line-height: 1.5;
@@ -66,11 +71,23 @@
     text-align: left;
 }
 
+.name a {
+    text-decoration: none;
+}
+
+.name a h3:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    color: #c7e4dd;
+}
+
 footer {
     width: 80vw;
     min-width: 1200px;
     max-height: 250px;
     height: 12%;
+    padding: 5px;
+    margin-top: 1em;
     margin-bottom: 1em;
     display: flex;
     flex-direction: column;
@@ -120,6 +137,14 @@ footer {
         justify-content: flex-start;
         align-items: flex-start;
         position: relative;
+    }
+
+    .contact_text_box h6{
+        font-size: 1.5em;
+    }
+
+    .container6 {
+        max-height: 650px;
     }
 
 

@@ -20,7 +20,7 @@ function Education() {
             <div className='container4'>
                 <div className="box">
 
-                    <img src={picture1} alt="" id='education_img' />
+                    <img src={picture1} alt="bullet" id='education_img' />
 
                     <div className="div01">
                         <div className="text_box">
@@ -31,7 +31,7 @@ function Education() {
                             <p>October 2009 – October 2013</p>
                         </div>
 
-                        <img src={Skills_GE_bullet} alt="" className='bullets' />
+                        <img src={Skills_GE_bullet} alt="bullet" className='bullets' />
                     </div>
 
                     <div className="div02">
@@ -43,7 +43,7 @@ function Education() {
                             <p>October 2013 – October 2014  </p>
                         </div>
 
-                        <img src={Skills_GE_bullet} alt="" className='bullets' />
+                        <img src={Skills_GE_bullet} alt="bullet" className='bullets' />
                     </div>
 
                     <div className="div03">
@@ -54,12 +54,12 @@ function Education() {
                             <p>August 2024 - January 2025</p>
                         </div>
 
-                        <img src={Skills_FD_bullet} alt="" className='bullets' />
+                        <img src={Skills_FD_bullet} alt="bullet" className='bullets' />
                     </div>
 
 
                     <div className="div04">
-                        <img src={Skills_FD_bullet} alt="" className='bullets' />
+                        <img src={Skills_FD_bullet} alt="bullet" className='bullets' />
                         <div className="text_box">
                             <h6>Basics of Programming  </h6>
                             <h6>(in C# and .NET framework)  </h6>
@@ -71,7 +71,7 @@ function Education() {
 
 
                     <div className="div05">
-                        <img src={Skills_SM_bullet} alt="" className='bullets' />
+                        <img src={Skills_SM_bullet} alt="bullet" className='bullets' />
                         <div className="text_box">
                             <h6>Scrum Fundamentals Certified (SFC)</h6>
                             <p>SCRUMstudy - Accreditation Body for
@@ -84,7 +84,7 @@ function Education() {
 
 
                     <div className="div06">
-                        <img src={Skills_SM_bullet} alt="" className='bullets' />
+                        <img src={Skills_SM_bullet} alt="bullet" className='bullets' />
                         <div className="text_box">
                             <h6>Professional Scrum Master™ I (PSM I)  </h6>
                             <p>Scrum.org,  </p>

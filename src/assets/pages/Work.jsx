@@ -63,7 +63,8 @@ function Work() {
                                           from the original, 
                                                 enhancing both functionality and appearance."
                                 img={Corgi}
-                                url="https://game.njufkica.com/" />
+                                url="https://game.njufkica.com/"
+                                 />
                         </SwiperSlide>
 
                         <SwiperSlide>
