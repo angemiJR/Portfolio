@@ -20,7 +20,7 @@
 
 .line {
     width: 80vw;
-    height: 0.5em;
+    height: 5pt;
  background: linear-gradient(90deg, #ececec, #89ada5, #ececec);
 }
 
@@ -63,7 +63,7 @@
     align-items: flex-start;
 }
 
-.contact_text_box h6 {
+.contact_text_box p {
     font-family: "Roboto_Thin";
     font-size: 1em;
     line-height: 1.5;
@@ -84,8 +84,8 @@
 footer {
     width: 80vw;
     min-width: 1200px;
-    max-height: 250px;
-    height: 12%;
+    max-height: 270px;
+    height: 13%;
     padding: 5px;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -101,6 +101,7 @@ footer {
     width: 70%;
     min-width: 1000px;
     max-height: 250px;
+    min-height: 2em;
     height: 12%;
     display: flex;
     justify-content: space-around;
@@ -139,7 +140,7 @@ footer {
         position: relative;
     }
 
-    .contact_text_box h6{
+    .contact_text_box p{
         font-size: 1.5em;
     }
 

@@ -25,13 +25,13 @@ function Contact() {
             <div className="container6">
 
                 <div className="contact_text_box">
-                    <h6>Thank you for visiting my website!</h6>
+                    <p>Thank you for visiting my website!</p>
 
-                    <h6>Feel free to reach out—I’m always open to new opportunities, collaborations, and exciting projects.</h6>
+                    <p>Feel free to reach out—I’m always open to new opportunities, collaborations, and exciting projects.</p>
 
-                    <h6>With a background in graphic engineering and design, I have a deep understanding of the entire creative, production, and workflow process. From initial concepts to final execution, I know how to bridge the gap between design and development. As a Scrum Master, I ensure smooth workflows, efficient team collaboration, and agile project execution. Combining these skills with front-end development, I bring designs to life with precision, ensuring both functionality and aesthetics work seamlessly together. </h6>
+                    <p>With a background in graphic engineering and design, I have a deep understanding of the entire creative, production, and workflow process. From initial concepts to final execution, I know how to bridge the gap between design and development. As a Scrum Master, I ensure smooth workflows, efficient team collaboration, and agile project execution. Combining these skills with front-end development, I bring designs to life with precision, ensuring both functionality and aesthetics work seamlessly together. </p>
 
-                    <h6>Let’s connect and create something amazing!</h6>
+                    <p>Let’s connect and create something amazing!</p>
 
 
 
