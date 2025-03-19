@@ -14,6 +14,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     position: relative;
+    overflow: hidden;
 }
 
 .line {
@@ -30,35 +31,82 @@
 .container6 {
     width: 80vw;
     min-width: 1200px;
-    max-height: 450px;
-    height: 75%;
+    max-height: 400px;
+    height: 65%;
     margin-bottom: 1em;
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: center;
     align-self: center;
     overflow: visible;
 }
 
 #picture_contact{
    
-    height: 100%;
-    width: auto;
+    height: auto;
+    width: 27%;
     object-fit: cover;
+    margin-bottom: 50px;
 }
 
 .contact_text_box{
     width: 40%;
     height: auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .contact_text_box h6{
     font-family: "Roboto_Thin";
     font-size: 1em;
     line-height: 1.5;
+    margin-bottom: 1em;
+    text-align: left;
+}
+
+footer {
+    width: 80vw;
+    min-width: 1200px;
+    max-height: 250px;
+    height: 12%;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    overflow: hidden;
+}
+
+.footer_icons {
+    width: 70%;
+    min-width: 1000px;
+    max-height: 250px;
+    height: 12%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_icons p {
+    font-family: "Roboto_Thin";
+    font-size: 10pt;
+    line-height: 1.5;
+    margin-bottom: 1em;
+    text-align: left;
+}
+
+.icons {
+    font-size: 2em;
+    color: #9d9c9c; 
+    margin: 0 10px; 
+    transition: color 0.2s ease-in-out;
+}
+
+.icons:hover {
+    color:  #00686c; 
+    transform: scale(1.1);
 }
 
 
