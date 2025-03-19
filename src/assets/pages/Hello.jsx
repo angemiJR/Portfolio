@@ -1,5 +1,5 @@
 import Navbar from '../components/Navbar';
-import picture1 from '../pictures/Hello_1.svg';
+import picture1 from '../pictures/Hello_1.jpg';
 
 import '../styles/Hello.css';
 

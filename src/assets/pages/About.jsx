@@ -2,7 +2,7 @@ import '../styles/About.css';
 import '../styles/Common.css';
 
 import Chapter from '../components/Chapter_left.jsx';
-import picture1 from '../pictures/About1.svg';
+import picture1 from '../pictures/About1.jpg';
 function About() {
 
     const chapterText = "About me";
