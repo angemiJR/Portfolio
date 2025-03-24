@@ -127,3 +127,58 @@
 
     }
 }
+
+@media (max-width: 767px) and (min-width: 320px) {
+    .chapter_left {
+        width: 80vw;
+        height: 15vh;
+        min-width: 320px;
+        display: flex;
+        margin-top: 2em;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        position: relative;
+        /* border: 2px solid #128312; */
+    }
+    
+    .chapter_left .LogoClean {
+        width: 7vh;
+        height: auto;
+        margin-right: 1em;
+    }
+    
+    .chapter_left .color_box_left {
+        width: 70vw;
+        min-width: 320px;
+        height: 5vh;
+        border-radius: 0em 10px 10px 0em;
+        justify-self: flex-start;
+    
+        left: -2em;
+        background-color: rgba(137, 173, 165, 0.4);
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    .chapter_left .color_box_left .box {
+        width: 50vw;
+        min-width: 320px;
+        height: auto;
+        padding-left: 2em;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    
+    .chapter_left h2 {
+        font-family: "Roboto_Black";
+        font-size: 2em;
+        color: whitesmoke;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+    
+  
+}

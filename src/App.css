@@ -19,3 +19,12 @@
     font-size: 1.5em;
     text-align: center;
 }
+
+
+@media (max-width: 767px) and (min-width: 320px) {
+    #root {
+        width: 100vw;
+        min-width: 320px;
+        
+    }
+}

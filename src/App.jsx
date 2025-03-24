@@ -9,25 +9,25 @@ import Contact from './assets/pages/Contact';
 import './App.css';
 
 function App() {
-  const [isPortrait, setIsPortrait] = useState(window.innerHeight > window.innerWidth);
+  // const [isPortrait, setIsPortrait] = useState(window.innerHeight > window.innerWidth);
 
-  useEffect(() => {
-    const handleOrientationChange = () => {
-      setIsPortrait(window.innerHeight > window.innerWidth);
-    };
+  // useEffect(() => {
+  //   const handleOrientationChange = () => {
+  //     setIsPortrait(window.innerHeight > window.innerWidth);
+  //   };
 
-    window.addEventListener("resize", handleOrientationChange);
-    return () => window.removeEventListener("resize", handleOrientationChange);
-  }, []);
+  //   window.addEventListener("resize", handleOrientationChange);
+  //   return () => window.removeEventListener("resize", handleOrientationChange);
+  // }, []);
 
-  // If the screen is in portrait mode, display a warning
-  if (isPortrait) {
-    return (
-      <div className="landscape-warning">
-        <h2>Please rotate your device to landscape mode.</h2>
-      </div>
-    );
-  }
+
+  // if (isPortrait) {
+  //   return (
+  //     <div className="landscape-warning">
+  //       <h2>Please rotate your device to landscape mode.</h2>
+  //     </div>
+  //   );
+  // }
 
   return (
     <>
