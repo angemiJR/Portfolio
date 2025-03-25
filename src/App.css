@@ -25,6 +25,7 @@
     #root {
         width: 100vw;
         min-width: 320px;
+        overflow-x: hidden;
         
     }
 }

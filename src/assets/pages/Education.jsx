@@ -13,10 +13,10 @@ import pictureMobile from '../pictures/Education_M.svg';
 const chapterText = "Education";
 
 function Education() {
-    const [isMobile, setIsMobile] = useState(window.innerWidth < 767);
+    const [isMobile, setIsMobile] = useState(window.innerWidth < 1400);
 
     useEffect(() => {
-        const handleResize = () => setIsMobile(window.innerWidth < 767);
+        const handleResize = () => setIsMobile(window.innerWidth < 1400);
         window.addEventListener('resize', handleResize);
         return () => window.removeEventListener('resize', handleResize);
     }, []);

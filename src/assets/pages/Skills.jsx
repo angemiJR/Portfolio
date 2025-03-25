@@ -14,10 +14,10 @@ import Skills_GE_bullet from '../pictures/Skills_GE_bullet.svg';
 const chapterText = "Skills";
 
 function Skills() {
-    const [isMobile, setIsMobile] = useState(window.innerWidth < 767);
+    const [isMobile, setIsMobile] = useState(window.innerWidth < 1400);
 
     useEffect(() => {
-        const handleResize = () => setIsMobile(window.innerWidth < 767);
+        const handleResize = () => setIsMobile(window.innerWidth < 1400);
         window.addEventListener('resize', handleResize);
         return () => window.removeEventListener('resize', handleResize);
     }, []);
