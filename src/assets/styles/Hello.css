@@ -37,7 +37,7 @@
 }
 
 
-@media (max-width: 767px) and (min-width: 320px) {
+@media (max-width: 1400px) and (min-width: 320px) {
     #hello {
         width: 95vw;
         height: 100vh;
