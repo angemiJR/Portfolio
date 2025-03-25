@@ -150,3 +150,158 @@ footer {
 
 
 }
+
+@media (max-width: 767px) and (min-width: 320px) {
+    #contact {
+        width: 100vw;
+        height: 100vh;
+        min-width: 320px;
+        min-height: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        position: relative;
+        overflow: scroll;
+    }
+
+    #contact .chapter_left {
+        height: 10vh;
+    }
+
+    .line {
+        width: 80vw;
+        height: 2pt;
+     background: linear-gradient(90deg, #ececec, #89ada5, #ececec);
+    }
+
+    .container6 {
+        width: 95vw;
+        min-width: 320px;
+        max-height: 100vh;
+        height: 75%;
+        margin-bottom: 1em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items:center;
+        align-self: center;
+        overflow: visible;
+    }
+
+    #picture_contact{
+   
+     
+        visibility: hidden;
+        position: absolute;
+
+      
+    }
+    
+  
+    
+    #contact .name {
+        width: 80%;
+        min-width: 320px;
+        height: 10vh;
+        display: flex;
+        margin-top: 1em;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-bottom: 20px;
+        /* border: 2px solid #cc9793; */
+    }
+
+    #contact .name h3 {
+        font-family: "Roboto_Black";
+        font-size: 14pt;
+        color: whitesmoke;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        margin-left: 2em;
+
+
+    }
+
+    #contact .name .name_box_left {
+        width: 50vw;
+        min-width: 320px;
+        height: 5vh;
+        border-radius: 0em 10px 10px 0em;
+        justify-self: flex-start;
+        margin-top: 1em;
+        left: -2em;
+        background-color: rgba(137, 173, 165, 0.4);
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+
+
+
+    .contact_text_box{
+        width: 95%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+    .contact_text_box p {
+        font-family: "Roboto_Thin";
+        font-size: 12pt;
+        line-height: 1.5;
+        margin-bottom: 1em;
+        text-align: left;
+    }
+    
+    .name a {
+        text-decoration: none;
+    }
+    
+ 
+    
+    footer {
+        width: 95vw;
+        min-width: 320px;
+        max-height: 270px;
+        height: 13%;
+        padding: 5px;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        align-self: center;
+        overflow: hidden;
+    }
+    
+    .footer_icons {
+        width: 90%;
+        min-width: 320px;
+        max-height: 200px;
+        min-height: 2em;
+        height: 12%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .footer_icons p {
+        font-family: "Roboto_Thin";
+        font-size: 8pt;
+        line-height: 1.5;
+        margin-bottom: 0em;
+        text-align: left;
+    }
+    
+    .icons {
+        font-size: 1.5em;
+        color: #9d9c9c; 
+        margin: 0 10px; 
+        transition: color 0.2s ease-in-out;
+    }
+
+}

@@ -176,3 +176,55 @@ b {
     }
 }
 
+@media (max-width: 767px) and (min-width: 320px) {
+    #skills {
+        width: 100vw;
+        height: 100vh;
+        min-width: 320px;
+        min-height: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        position: relative;
+        overflow: scroll;
+    }
+
+    #skills .chapter_left {
+        height: 10vh;
+    }
+
+    .container3 {
+        width: 80vw;
+        min-width: 320px;
+        max-height: 100vh;
+        height: 75%;
+        margin-bottom: 1em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        align-self: center;
+        overflow: visible;
+    }
+
+    .whole {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid red; */
+    }
+
+    .grid_container2 {
+        height: 80%;
+        width: 100%;
+        display: grid;
+        grid-template-rows: 10% repeat(6, 1fr);
+        grid-template-columns: 2em 1fr;
+        gap: 1em;
+    }
+
+}

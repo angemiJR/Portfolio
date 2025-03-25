@@ -184,7 +184,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        align-items: flex-start;
+        align-items: center;
         align-self: center;
         overflow: visible;
 
@@ -216,7 +216,7 @@
 
     #picture_about {
         height: auto;
-        width: 100%;
+        width: 90%;
 
         margin-top: 0;
     }

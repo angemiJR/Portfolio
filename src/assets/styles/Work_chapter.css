@@ -106,3 +106,83 @@
     }
 
 }
+
+
+@media (max-width: 767px) and (min-width: 320px) {
+       
+    .Works_container {
+        width: 20vw;
+        max-width: 20em;
+        min-width: 17em;
+        height: 55vh;
+        max-height: 45em;
+        min-height: 30em;
+        padding: 10px;
+        background-color: rgba(189, 236, 226, 0.4);
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow: auto;
+    
+    }
+    
+    .picture {
+        width: 70%;
+        height: auto;
+        margin-bottom: 0.5em;
+    }
+    
+    .tittle {
+        font-family: "Roboto_Black";
+        font-size:12pt;
+        color: whitesmoke;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        text-align: center;
+    }
+    
+    .built_on {
+        font-family: "Roboto_Bold";
+        font-size: 10pt;
+        line-height: 1.5;
+        margin-top: 1em;
+        text-align: center;
+    }
+    
+    .note {
+        width: 100%;
+        min-height: 6em;
+        max-height: 6em;
+        font-family: "Roboto_Thin";
+        font-size: 10pt;
+        line-height: 1.5;
+        margin-top: 1em;
+        text-align: center;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    
+    }
+    
+    
+    .work_text_box {
+        width: 80%;
+        height: 35%;
+    }
+    
+    .try {
+        width: 7em;
+        height: 3em;
+        margin: 10px;
+        background-color: #ececec;
+        border-radius: 5px;
+        border: none;
+        font-family: "Roboto_Bold";
+        font-size: 1em;
+        color: rgba(0, 0, 0, 0.5);
+        text-decoration: none;
+        box-shadow: 2px 2px 2px rgb(104, 104, 104);
+    }
+ 
+
+}
