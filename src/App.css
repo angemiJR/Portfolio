@@ -2,12 +2,18 @@
     width: 100vw;
     min-width: 1200px;
     height: auto;
-    background-color:#ececec;
+    background-color: #ececec;
     display: flex;
     flex-direction: column;
     align-items: center;
     overflow-x: hidden;
+    overflow-y: auto;
 }
+
+/* Chrome, Edge, Safari */
+#root::-webkit-scrollbar {
+    display: none;
+  }
 
 .landscape-warning {
     display: flex;
@@ -15,7 +21,8 @@
     align-items: center;
     height: 100vh;
     width: 100vw;
-    background-color: #00340e; /* Dark background */
+    background-color: #00340e;
+    /* Dark background */
     color: white;
     font-size: 1.5em;
     text-align: center;
@@ -27,6 +34,6 @@
         width: 100vw;
         min-width: 320px;
         overflow-x: hidden;
-        
+
     }
 }
