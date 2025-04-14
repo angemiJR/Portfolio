@@ -10,7 +10,7 @@ import '../styles/About.css';
 
 import Chapter from '../components/Chapter_left.jsx';
 import picture1 from '../pictures/Contact_me.jpg';
-import CV from '/documents/Emilija_Miladinovic_CV_February_25-merged-compressed-1.pdf';
+import CV from '/documents/Emilija_Miladinovic_CV.pdf';
 
 const chapterText = "Contact";
 
