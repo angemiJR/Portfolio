@@ -16,6 +16,7 @@ import Corgi from '../pictures/Work_corgi.svg';
 import Spa from '../pictures/Serenity.png';
 import Animation from '../pictures/Animation.svg';
 import Sass from '../pictures/Sass.svg';
+import LittleLemon from '../pictures/LitlleLemon.png';
 
 const chapterText = "My work";
 
@@ -52,6 +53,20 @@ function Work() {
                         modules={[EffectCoverflow, Pagination, Navigation]}
                         className="swiper-container"
                     >
+                          <SwiperSlide>
+                            <Work_chapter tittle="Little Lemon restaurant"
+                                built_on="Django, MySQL html, CSS"
+                                note="This website was built as a capstone project during 
+                                the Meta Back-End Developer course. It represents an 
+                                Italian restaurant called Little Lemon and is developed 
+                                using the Django framework. It includes Booking and 
+                                Menu pages connected to a MySQL database, enabling dynamic,
+                                 real-world content handling. This project provided hands-on experience and a 
+                                deeper understanding of how back-end systems work in practice."
+                                img={LittleLemon}
+                                url="https://angemijr.pythonanywhere.com/"
+                                 />
+                        </SwiperSlide>
                         <SwiperSlide>
                             <Work_chapter tittle="Memory game"
                                 built_on="React, JavaScript, html, CSS"
