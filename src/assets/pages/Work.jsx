@@ -18,6 +18,7 @@ import Animation from '../pictures/Animation.svg';
 import Sass from '../pictures/Sass.svg';
 import LittleLemon from '../pictures/LitlleLemon.png';
 
+
 const chapterText = "My work";
 
 function Work() {
@@ -56,13 +57,12 @@ function Work() {
                           <SwiperSlide>
                             <Work_chapter tittle="Little Lemon restaurant"
                                 built_on="Django, MySQL html, CSS"
-                                note="This website was built as a capstone project during 
-                                the Meta Back-End Developer course. It represents an 
-                                Italian restaurant called Little Lemon and is developed 
-                                using the Django framework. It includes Booking and 
-                                Menu pages connected to a MySQL database, enabling dynamic,
-                                 real-world content handling. This project provided hands-on experience and a 
-                                deeper understanding of how back-end systems work in practice."
+                                note="This website is designed for desktop screens only. 
+                                It is a restaurant web application built with Django 
+                                and Django REST Framework. The Booking and Menu pages
+                                 are connected to a database, enabling dynamic content
+                                  and real-world data handling. The project demonstrates
+                                   back-end architecture, API integration, and database-driven functionality."
                                 img={LittleLemon}
                                 url="https://angemijr.pythonanywhere.com/"
                                  />
