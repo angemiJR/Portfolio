@@ -54,6 +54,8 @@ function Education() {
                             <img src={Skills_GE_bullet} alt="bullet" className='bullets' />
                         </div>
 
+
+
                         <div className="div03">
                             <div className="text_box">
                                 <h6>Front-end developer</h6>
@@ -90,6 +92,16 @@ function Education() {
                                 <p>August 2022</p>
                             </div>
                         </div>
+
+                        <div className="div07">
+                            <img src={Skills_FD_bullet} alt="bullet" className='bullets' />
+                            <div className="text_box">
+                                <h6>Meta Back-End Developer</h6>
+                                <p>Meta</p>
+                                <p>December 2025</p>
+                            </div>
+                        </div>
+
                     </div>
                 )}
             </div>

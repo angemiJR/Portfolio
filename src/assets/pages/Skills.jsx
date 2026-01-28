@@ -62,9 +62,9 @@ function Skills() {
                                 <div className="div3"></div>
                                 <div className="div3"></div>
                                 <div className="div4"><img src={Skills_FD_bullet} alt="" className='bullet' /></div>
-                                <div className="div5"><p>Proficient in <b>HTML5, CSS3, SCSS</b> (Sass), and <b>JavaScript</b></p></div>
+                                <div className="div5"><p>Proficient in front-end technologies including <b>HTML5</b>, <b>CSS3</b>, <b>SCSS (Sass)</b>, <b>JavaScript</b>, <b>React</b>, and <b>Bootstrap</b></p></div>
                                 <div className="div6"><img src={Skills_FD_bullet} alt="" className='bullet' /></div>
-                                <div className="div7"><p>Experienced in modern frameworks such as <b>React</b></p></div>
+                                <div className="div7"><p>Experienced in back-end development with <b>Python</b>, <b>Django</b> (including <b>Django ORM</b>), <b>MySQL</b>, and <b>RESTful APIs</b> using <b>Django REST Framework</b></p></div>
                                 <div className="div8"><img src={Skills_FD_bullet} alt="" className='bullet' /></div>
                                 <div className="div9"><p>Skilled in UI/UX design using <b>Figma</b> and modern design libraries</p></div>
                                 <div className="div10"><img src={Skills_FD_bullet} alt="" className='bullet' /></div>
@@ -73,17 +73,18 @@ function Skills() {
                                 <div className="div13"><p>Strong foundation in responsive and user-centric web development principles</p></div>
                                 <div className="div3"></div>
                                 <div className="div3"></div>
+                           
                             </div>
                         </>
                     ) : (
                         <>
-                            <div className="grid_container2">
+                              <div className="grid_container2">
                                 <div className="div3"></div>
                                 <div className="div3"></div>
                                 <div className="div4"><img src={Skills_FD_bullet} alt="" className='bullet' /></div>
-                                <div className="div5"><p>Proficient in <b>HTML5, CSS3, SCSS</b> (Sass), and <b>JavaScript</b></p></div>
+                                <div className="div5"><p>Proficient in front-end technologies including <b>HTML5</b>, <b>CSS3</b>, <b>SCSS (Sass)</b>, <b>JavaScript</b>, <b>React</b>, and <b>Bootstrap</b></p></div>
                                 <div className="div6"><img src={Skills_FD_bullet} alt="" className='bullet' /></div>
-                                <div className="div7"><p>Experienced in modern frameworks such as <b>React</b></p></div>
+                                <div className="div7"><p>Experienced in back-end development with <b>Python</b>, <b>Django</b> (including <b>Django ORM</b>), <b>MySQL</b>, and <b>RESTful APIs</b> using <b>Django REST Framework</b></p></div>
                                 <div className="div8"><img src={Skills_FD_bullet} alt="" className='bullet' /></div>
                                 <div className="div9"><p>Skilled in UI/UX design using <b>Figma</b> and modern design libraries</p></div>
                                 <div className="div10"><img src={Skills_FD_bullet} alt="" className='bullet' /></div>
@@ -92,6 +93,7 @@ function Skills() {
                                 <div className="div13"><p>Strong foundation in responsive and user-centric web development principles</p></div>
                                 <div className="div3"></div>
                                 <div className="div3"></div>
+                           
                             </div>
                             <div className="div2">
                                 <img src={Skills_FD} alt="Front end logo" className='image' />
